@@ -1,9 +1,21 @@
 {
   "name": "@etm12/etomusume",
   "version": "0.1.0",
+  "description": "Scrape chat comments from Twitch VODs.",
   "bin": "index.js",
   "main": "lib/index.js",
   "license": "MIT",
+  "files": [
+    "lib/"
+  ],
+  "homepage": "https://github.com/etm12/etomusume#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etm12/etomusume.git"
+  },
+  "bugs": {
+    "url": "https://github.com/etm12/etomusume/issues"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "dotenv": "^8.0.0",
