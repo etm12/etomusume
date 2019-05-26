@@ -1,6 +1,6 @@
 {
   "name": "@etm12/etomusume",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scrape chat comments from Twitch VODs.",
   "private": false,
   "bin": "index.js",
