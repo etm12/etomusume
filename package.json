@@ -2,6 +2,7 @@
   "name": "@etm12/etomusume",
   "version": "0.1.0",
   "description": "Scrape chat comments from Twitch VODs.",
+  "private": false,
   "bin": "index.js",
   "main": "lib/index.js",
   "license": "MIT",
@@ -16,6 +17,12 @@
   "bugs": {
     "url": "https://github.com/etm12/etomusume/issues"
   },
+  "keywords": [
+    "kefir",
+    "twitch",
+    "vod",
+    "cli"
+  ],
   "dependencies": {
     "axios": "^0.18.0",
     "dotenv": "^8.0.0",
