@@ -10,7 +10,7 @@
     "build": "babel lib/ -d dist/ --source-maps",
     "build:watch": "npm run build -- --watch",
     "test": "jest",
-    "prepublish": "npm run test"
+    "prepublish": "npm run build && npm run test"
   },
   "files": [
     "lib/",
@@ -52,6 +52,8 @@
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "@types/date-fns": "^2.6.0",
-    "@types/shelljs": "^0.8.5"
+    "@types/shelljs": "^0.8.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0"
   }
 }
