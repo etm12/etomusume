@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 require('dotenv').config();
 
-const output = require('./lib/output');
+const output = require('./dist/output');
 
 const argv =
   require('yargs')
@@ -34,4 +34,4 @@ const argv =
     ])
     .argv;
 
-require('./lib/index')(argv);
+require('./dist/index').default(argv);
