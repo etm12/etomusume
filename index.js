@@ -7,31 +7,16 @@ const argv =
   require('yargs')
     .version()
     .env('ETOMUSUME')
+    .command(require('./dist/command/sub'))
+    .command(require('./dist/command/vod'))
     .option('verbose', {
       alias: 'v',
       describe: 'Would you like it noisy, Sir?'
-    })
-    .option('video-id', {
-      alias: 'i',
-      describe: 'Source video ID',
-    })
-    .option('twitch-client-id', {
-      describe: 'Twitch API client ID',
-    })
-    .option('destination', {
-      alias: 'd',
-      default: 'stdout',
-      choices: Object.keys(output),
-      describe: 'Where to redirect output to. Defaults to `stdout`',
     })
     .option('print0', {
       alias: '0',
       describe: 'Use null character as delimiter for items',
     })
-    .demandOption([
-      'video-id',
-      'twitch-client-id',
-    ])
     .argv;
 
-require('./dist/index').default(argv);
+// require('./dist/index').default(argv);
