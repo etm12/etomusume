@@ -2056,7 +2056,7 @@ imurmurhash@^0.1.4:
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
   integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
 
-infestines@^0.4.11:
+infestines@^0.4.10, infestines@^0.4.11:
   version "0.4.11"
   resolved "https://registry.yarnpkg.com/infestines/-/infestines-0.4.11.tgz#1d0d164ff1831ffcbafbd02f53bc60140dd52197"
   integrity sha512-09nHagZLOYUaXKHqdV+nxEaYaD0hRlKyhQMhgTMwfbvWpMkowXf4XLZzAkLq6Y90wZ7Wqm6aMoL2trBsNNKGeg==
@@ -2795,6 +2795,14 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
+karet.lift@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/karet.lift/-/karet.lift-2.1.0.tgz#8d2cb23fc8fb76658d6d4c0905eae77dddc5e5ac"
+  integrity sha512-f3WMShAv5My4fnJJebnJEsqtG5L5wUqTLAEHlncphf9Cdy7XhdY4poQWm15pQOWxILF6LQLC4opB6Cbg9D6RWg==
+  dependencies:
+    infestines "^0.4.10"
+    partial.lenses "^14.0.0"
+
 kefir@^3.8.6:
   version "3.8.6"
   resolved "https://registry.yarnpkg.com/kefir/-/kefir-3.8.6.tgz#046f0dabd870ff7cbfe039995c9bca2c1e68ac36"
@@ -3367,7 +3375,7 @@ parse5@4.0.0:
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"
   integrity sha512-VrZ7eOd3T1Fk4XWNXMgiGBK/z0MG48BWG2uQNU4I72fkQuKUTZpl+u9k+CxEG0twMVzSmXEEz12z5Fnw1jIQFA==
 
-partial.lenses@^14.17.0:
+partial.lenses@^14.0.0, partial.lenses@^14.17.0:
   version "14.17.0"
   resolved "https://registry.yarnpkg.com/partial.lenses/-/partial.lenses-14.17.0.tgz#5a57590668d5dfda6d2f7ac550068c1607e00eff"
   integrity sha512-Iq+wDw5b5iwmn7b9MO+//buOqF0YoAC2Hsj+HoeG88BGeT3NkL/YwHNGDrySyX7xZSqj0LFEWwfgGSj4cSFmXQ==

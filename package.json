@@ -9,7 +9,9 @@
   "scripts": {
     "build": "babel lib/ -d dist/ --source-maps",
     "build:watch": "npm run build -- --watch",
-    "test": "jest",
+    "test": "jest --collectCoverageFrom=lib/**/*.js",
+    "test:watch": "npm run test -- --watch",
+    "test:cov": "npm run test -- --collectCoverage",
     "prepublish": "npm run build && npm run test"
   },
   "files": [
@@ -35,6 +37,7 @@
     "date-fns": "^2.0.0-alpha.31",
     "dotenv": "^8.0.0",
     "infestines": "^0.4.11",
+    "karet.lift": "^2.1.0",
     "kefir": "^3.8.6",
     "partial.lenses": "^14.17.0",
     "ramda": "^0.26.1",
