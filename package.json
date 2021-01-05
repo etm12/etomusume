@@ -33,7 +33,7 @@
     "cli"
   ],
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "date-fns": "^2.0.0-alpha.31",
     "dotenv": "^8.0.0",
     "infestines": "^0.4.11",
